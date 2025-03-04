@@ -201,12 +201,6 @@ border-bottom-left-radius: 30px;
   }
 }
 
-.hiroshima-about{
-  padding-top: 200px;
-  padding-left: 200px;
-  
-}
-
 /* ここまで */
 footer {
   padding-top: 30px;
@@ -233,4 +227,17 @@ footer a:hover {
   color: #ffffff;
   font-size: 20px;
 
+}
+
+/* textLoop */
+.loop_wrap div {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+.loop_wrap div:nth-child(odd) {
+  animation: loop 50s -25s linear infinite;
+}
+
+.loop_wrap div:nth-child(even) {
+  animation: loop2 50s linear infinite;
 }
