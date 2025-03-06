@@ -241,3 +241,178 @@ footer a:hover {
 .loop_wrap div:nth-child(even) {
   animation: loop2 50s linear infinite;
 }
+
+
+
+h1 {
+  margin-bottom: 100px;
+}
+h2 {
+  margin-bottom: 50px;
+}
+/* スライドする要素 */
+.content {
+  width: 300px;
+  height: 350px;
+  
+}
+.content:nth-child(1) {
+  background-color: #E0D3C4;
+  border: #333;
+}
+.content:nth-child(2) {
+  background-color: #E0D3C4;
+}
+.content:nth-child(3) {
+  background-color: #E0D3C4
+}
+.content:nth-child(4) {
+  background-color: #E0D3C4;
+}
+.content:nth-child(5) {
+  background-color: #E0D3C4;
+}
+/* スライドレールの枠 */
+.wrap {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  height: 340px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 100px;
+}
+/* content4つをまとめたスライドブロック */
+.slideshow {
+  display: flex;
+  -webkit-animation: loop-slide 20s infinite linear 1s both;
+  animation: loop-slide 20s infinite linear 1s both;
+}
+@-webkit-keyframes loop-slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes loop-slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+/* ホバー時に動きを止める（パターン2・3）*/
+.slide-paused:hover .slideshow {
+  -webkit-animation-play-state: paused;
+  animation-play-state: paused;
+}
+/* ホバー時の装飾（パターン3） */
+.content-hover {
+  transition: all 0.2s;
+  margin-right: 20px;
+}
+.content-hover:hover {
+  transform: translateY(-20px);
+  border-radius: 0 10%;
+  box-shadow: 0 3px 10px 0 #333;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.hiroshimaMore{
+  background-color: #E0D3C4;
+  height: 500px;
+  margin: 20px;
+  border-radius: 0 30px 0 30px;
+  text-align: center;
+}
+
+.title{
+  text-align: center;
+  padding-top: 200px;
+}
+h1{
+  font-size: 40px;
+  
+}
+.hiroshimaMore{
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.hiroshimaMore p{
+  padding: 20px;
+  font-size: 20px;
+}
+
+
+
+/* テンプレ */
+.about-chikuhoku-box {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 90%;
+  position: relative;
+  background-color: #E0D3C4;
+  border-radius: 0 90px 0 90px;
+  padding: 100px 10% 100px;
+  margin-bottom: 90px;
+}
+
+.about-chikuhoku-box .box {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+body {
+  color: #333333;
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  background-color: inherit;
+  position: relative;
+}
+
+.about-chikuhoku-box .box .article {
+  width: 68%;
+  z-index: 10;
+  position: relative;
+  text-shadow: 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea;
+}
+.about-chikuhoku-box .box .article  {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+.about-chikuhoku-box .box .asset-map {
+  width: 50%;
+  position: absolute;
+  top: 200px;
+  right: 0px;
+  z-index: 1;
+}
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+.about-chikuhoku-box .box p {
+  font-size: 114%;
+  line-height: 2;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: justify;
+}
+.title{
+  background-color: #66D2CE;
+  border-radius: 3px;
+  width: 5px;
+  margin-left: 50px;
+}
+.left > p{
+  text-shadow: 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea, 0px 0px 14px #f6eaea;
+}
+
+
+

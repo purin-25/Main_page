@@ -10,12 +10,18 @@
     
   </head>
   <body>
-
+    <!-- ローディング画面 -->
+    <div id="loading">
+    <div class="loader">
+        <span></span><span></span><span></span>
+    </div>
+</div>
+    <!-- 動かないヘッダー -->
     <header class="header">
-      
       <div class="header__container">
         <div class="logo">
           <img src="./assets/img/top/myLogo.png" alt="">
+          
         </div>
         <h1 class="header__logo"><a href="#">MY TRIP</a></h1>
         <button type="button" class="hamburger">
@@ -72,135 +78,138 @@
     </div>
 
 
-   
-    <div id="osakaPart">
+   <!-- osakaPart -->
+    <div class="osakaPart">
       <section class="record">
         <h2>Osaka</h2>
         <span>大阪</span>
         <p class="mainText osakatext">大阪は、とりあえず美味しい</p>
+
         <!-- スライダー -->
         <div class="slider">
           <div class="slider-wrapper">
-              <img src="./assets/img/hiroshima/hiroshima1.JPG" alt="Image 1">
-              <img src="./assets/img/hiroshima/hiroshima1.JPG" alt="Image 2">
-              <img src="./assets/img/hiroshima/hiroshima1.JPG" alt="Image 3">
-              <img src="./assets/img/hiroshima/hiroshima1.JPG" alt="Image 4">
-              <img src="../assets/img/hiroshima/hiroshima1.JPG" alt="Image 1 Clone">
+              <img src="./assets/img/osaka/osaka1.jpg" alt="Image 1">
+              <img src="./assets/img/osaka/osaka2.jpg" alt="Image 2">
+              <img src="./assets/img/osaka/osaka3.jpg" alt="Image 3">
+              <img src="./assets/img/osaka/osaka4.jpg" alt="Image 4">
+              
           </div>
           <button class="prev">❮</button>
           <button class="next">❯</button>
         </div>
+        <!-- ここまでスライダー -->
+
         <!-- インジケーター（ドット） -->
         <div class="indicators">
           <span class="dot active"></span>
           <span class="dot"></span>
           <span class="dot"></span>
           <span class="dot"></span>
+          
         </div>
-      </div>
-        
-        <a href="./osaka.html">
-          <button class="push-button">more about</button>
-        </a>
+       
+      <button class="push-button" onclick="location.href='./osaka.html'">more about</button>
+
       </section>
     </div>
-    
 
+<!-- hiroshimaPart -->
     <div id="hiroshimaPart">
       <section class="record">
         <h2 >Hiroshima</h2>
         <span>広島</span>
         <p class="mainText hiroshimatext">広島はかき。ナンバーワンかつオンリーワン</p>
         <!-- スライダー -->
-        <div class="slider">
-          <div class="slider-wrapper">
-            <img src="./assets/img/hiroshima/hiroshima1.JPG" alt="Image 1">
-            <img src="./assets/img/hiroshima/hiroshima1.JPG" alt="Image 2">
-            <img src="./assets/img/hiroshima/hiroshima1.JPG" alt="Image 3">
-            <img src="./assets/img/hiroshima/hiroshima1.JPG" alt="Image 4">
-            <img src="../assets/img/hiroshima/hiroshima1.JPG" alt="Image 1 Clone">
+        <div class="slider2">
+          <div class="slider-wrapper2">
+              <img src="./assets/img/hiroshima/hiroshima1.jpg" alt="Image 1">
+              <img src="./assets/img/hiroshima/hiroshima2.jpg" alt="Image 2">
+              <img src="./assets/img/hiroshima/hiroshima3.jpg" alt="Image 3">
+              <img src="./assets/img/hiroshima/hiroshima4.jpg" alt="Image 4">
+              
+          </div>
+          <button class="prev2">❮</button>
+          <button class="next2">❯</button>
         </div>
-          <button class="prev">❮</button>
-          <button class="next">❯</button>
-        </div>
-        <!-- インジケーター（ドット） -->
-        <div class="indicators">
-          <span class="dot active"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-        </div>
-      </div>
-        
+        <!-- ここまでスライダー -->
 
-        <a href="./hiroshima.html">
-          <button class="push-button">more about</button>
-        </a>
+        <!-- インジケーター（ドット） -->
+        <div class="indicators2">
+          <span class="dot2 active2"></span>
+          <span class="dot2"></span>
+          <span class="dot2"></span>
+          <span class="dot2"></span>
+          
+        </div>
+      <button class="push-button" onclick="location.href='./hiroshima.html'">more about</button>
+
       </section>
     </div>
 
+    <!-- tokyoPart -->
       <div id="tokyoPart">
       <section class="record">
         <h2>Tokyo</h2>
         <span>東京</span>
         <p class="mainText tokyotext">hight building 田舎住みなので常に見上げてました</p>
         <!-- スライダー -->
-        <div class="slider">
-          <div class="slider-wrapper">
-            <img src="./assets/img/hiroshima/hiroshima1.JPG" alt="Image 1">
-            <img src="./assets/img/hiroshima/hiroshima1.JPG" alt="Image 2">
-            <img src="./assets/img/hiroshima/hiroshima1.JPG" alt="Image 3">
-            <img src="./assets/img/hiroshima/hiroshima1.JPG" alt="Image 4">
-            <img src="../assets/img/hiroshima/hiroshima1.JPG" alt="Image 1 Clone">
+        <div class="slider3">
+          <div class="slider-wrapper3">
+              <img src="./assets/img/tokyo/tokyo1.jpg" alt="Image 1">
+              <img src="./assets/img/tokyo/tokyo2.jpg" alt="Image 2">
+              <img src="./assets/img/tokyo/tokyo3.jpg" alt="Image 3">
+              <img src="./assets/img/tokyo/tokyo4.jpg" alt="Image 4">
+              
+          </div>
+          <button class="prev3">❮</button>
+          <button class="next3">❯</button>
         </div>
-          <button class="prev">❮</button>
-          <button class="next">❯</button>
-        </div>
+        <!-- ここまでスライダー -->
+
         <!-- インジケーター（ドット） -->
-        <div class="indicators">
-          <span class="dot active"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
+        <div class="indicators3">
+          <span class="dot3 active3"></span>
+          <span class="dot3"></span>
+          <span class="dot3"></span>
+          <span class="dot3"></span>
+          
         </div>
-      </div>
         
-        
-        <a href="./tokyo.html">
-          <button class="push-button">more about</button>
-        </a>
+      <button class="push-button" onclick="location.href='./tokyo.html'">more about</button>
       </section>
     </div>
 
+    <!-- kyotoPart -->
     <div id="kyotoPart">
       <section class="record">
         <h2>Kyoto</h2>
         <span>京都</span>
         <p class="mainText kyototext">古い建物が好きやから、めちゃ楽しい</p>
         <!-- スライダー -->
-        <div class="slider">
-          <div class="slider-wrapper">
-            <img src="./assets/img/hiroshima/hiroshima1.JPG" alt="Image 1">
-            <img src="./assets/img/hiroshima/hiroshima1.JPG" alt="Image 2">
-            <img src="./assets/img/hiroshima/hiroshima1.JPG" alt="Image 3">
-            <img src="./assets/img/hiroshima/hiroshima1.JPG" alt="Image 4">
-            <img src="../assets/img/hiroshima/hiroshima1.JPG" alt="Image 1 Clone">
+        <div class="slider4">
+          <div class="slider-wrapper4">
+              <img src="./assets/img/kyoto/kyoto1.jpg" alt="Image 1">
+              <img src="./assets/img/kyoto/kyoto2.jpg" alt="Image 2">
+              <img src="./assets/img/kyoto/kyoto3.jpg" alt="Image 3">
+              <img src="./assets/img/kyoto/kyoto4.jpg" alt="Image 4">
+              
+          </div>
+          <button class="prev4">❮</button>
+          <button class="next4">❯</button>
         </div>
-          <button class="prev">❮</button>
-          <button class="next">❯</button>
-        </div>
+        <!-- ここまでスライダー -->
+
         <!-- インジケーター（ドット） -->
-        <div class="indicators">
-          <span class="dot active"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
+        <div class="indicators4">
+          <span class="dot4 active4"></span>
+          <span class="dot4"></span>
+          <span class="dot4"></span>
+          <span class="dot4"></span>
+          
         </div>
-      </div>
-       
-        <a href="./kyoto.html">
-          <button class="push-button">more about</button>
-        </a>
+     
+      <button class="push-button" onclick="location.href='./kyoto.html'">more about</button>
+
       </section>
     </div>
     
@@ -216,7 +225,7 @@
                     魚介類大好きすぎる、貝とか魚とかいっぱい食べたい
                     スキーorスノボしたい
             </p>
-            <img src="./assets/img/osaka/osaka1.jpg" alt="">
+            <img src="./assets/img/top/hokkaidou.JPG" alt="">
     </div>
 </section>
 
@@ -225,7 +234,7 @@
   <h1>Mie</h1>
     <h2>三重</h2>
     <div class="contents mie">
-      <img src="./assets/img/osaka/osaka1.jpg" alt="">
+      <img src="./assets/img/top/mie.JPG" alt="">
             
             <p class="description">
                     鈴鹿サーキット行きたい、シャチのshowみたい
@@ -244,7 +253,7 @@
           <p class="description">
                   美ら海水族館行きたい、ちんすこう食べたい　泳ぎたい
           </p>
-          <img src="./assets/img/osaka/osaka1.jpg" alt="">
+          <img src="./assets/img/top/okinawa.JPG" alt="">
           
   </div>
 </section>
@@ -252,15 +261,7 @@
 </section>
 
 </div>
-
-
-
-
-
-
     </main>
-
-    
 
     <footer>
       <ul >
@@ -277,7 +278,7 @@
 <script src="./assets/js/top/main.js"></script>
   <!-- Code injected by live-server -->
 <script>
-	// <![CDATA[  <-- For SVG support
+	// ハンバーガー用
 	if ('WebSocket' in window) {
 		(function () {
 			function refreshCSS() {
